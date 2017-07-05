@@ -12,6 +12,7 @@
 		CD405B441F0D04C80078F541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD405B421F0D04C80078F541 /* Main.storyboard */; };
 		CD405B461F0D04C80078F541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD405B451F0D04C80078F541 /* Assets.xcassets */; };
 		CD405B491F0D04C80078F541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD405B471F0D04C80078F541 /* LaunchScreen.storyboard */; };
+		CD405B511F0D0FF60078F541 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD405B501F0D0FF60078F541 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CD405B451F0D04C80078F541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD405B481F0D04C80078F541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD405B4A1F0D04C80078F541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD405B501F0D0FF60078F541 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CD405B3E1F0D04C80078F541 /* AppDelegate.swift */,
 				CD405B401F0D04C80078F541 /* ViewController.swift */,
+				CD405B501F0D0FF60078F541 /* MapViewController.swift */,
 				CD405B421F0D04C80078F541 /* Main.storyboard */,
 				CD405B451F0D04C80078F541 /* Assets.xcassets */,
 				CD405B471F0D04C80078F541 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD405B411F0D04C80078F541 /* ViewController.swift in Sources */,
+				CD405B511F0D0FF60078F541 /* MapViewController.swift in Sources */,
 				CD405B3F1F0D04C80078F541 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +308,7 @@
 				CD405B4F1F0D04C80078F541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
